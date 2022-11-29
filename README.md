@@ -23,25 +23,40 @@ Step2: Once the file is available , we are fetching the file from the Amazon S3 
 
 Step3: Sqoop command to fetch the customers(complete dump at once no incremental load and non partitioned) from sql to the hive
 
-<<<<<<< HEAD
-<p align="center">
-  <img src="Images/Docker-compose.jpg" width="650" title="Loaded model in blender">
-</p>
-=======
+
 ## Steps to be followed for 
 
-Step1: Download the repo to your local syatem and open it in VSCode
+Step1: Download the repo to your local system and open it in VSCode
 
 Step2: Open a terminal
 
 
 docker-compose up --build
->>>>>>> 39c02edeed84a491cdb0897059dcbc4979efc18a
+
+
 
 <p align="center">
-  <img src="Images/s3_orders.jpg" width="650" title="Loaded model in blender">
+  <img src="Images/Docker-compose.jpg" width="650" title="Loaded model in blender">
+</p>
+
+
+<p align="center">
+  <img src="Images/Airflow.jpg" width="450" title="Loaded model in blender">
+</p>
+
+
+<p align="center">
+  <img src="Images/s3_orders.jpg" width="450" title="Loaded model in blender">
 </p>
 
 <p align="center">
-  <img src="Images/Airflow_pipeine.jpg" width="650" title="Loaded model in blender">
+  <img src="Images/itversity.jpg" width="450" title="Loaded model in blender">
+</p>
+
+<p align="center">
+  <img src="Images/s3_orders.jpg" width="450" title="Loaded model in blender">
+</p>
+
+<p align="center">
+  <img src="Images/Airflow_pipeine.jpg" width="600" title="Loaded model in blender">
 </p>
