@@ -12,7 +12,14 @@ Step2: Once the file is available , we are fetching the file from the Amazon S3 
 
 Step3: Sqoop command to fetch the customers(complete dump at once no incremental load and non partitioned) from sql to the hive
 
+<p align="center">
+  <img src="Images/Docker-compose.jpg" width="650" title="Loaded model in blender">
+</p>
 
 <p align="center">
-  <img src="Airflow_pipeine.jpg" width="650" title="Loaded model in blender">
+  <img src="Images/s3_orders.jpg" width="650" title="Loaded model in blender">
+</p>
+
+<p align="center">
+  <img src="Images/Airflow_pipeine.jpg" width="650" title="Loaded model in blender">
 </p>
