@@ -43,58 +43,58 @@ Step2: Edit the docker-compose.yml file and mention your Gmail SMTP Server crede
        You can remove all the parameters mentioned as "AIRFLOW_SMTP_SMTP_" , if you want to skip the gmail notification part .
   
   <p align="center">
-  <img src="Images/Gmail.jpg" width="650" title="Loaded model in blender">
+  <img src="Images/Gmail.jpg" width="550" title="Docker Compose file">
 </p>     
 
 Step3: Please make sure docker desktop is up on running . Open terminal in VSCode and change the directory to project_pipeline
        and execute the  "docker-compose up --build" .
 
 <p align="center">
-  <img src="Images/Docker-compose.jpg" width="650" title="Loaded model in blender">
+  <img src="Images/Docker-compose.jpg" width="650" title="Terminal">
 </p>
 
 Step3: You would be getting the below message showing AIRFLOW which indicates that the Airflow is up on running
 
 <p align="center">
-  <img src="Images/Airflow.jpg" width="450" title="Loaded model in blender">
+  <img src="Images/Airflow.jpg" width="450" title="Log message">
 </p>
 
 Step4: Open the tab with localhost:8080 where you can view the below broken DAG 
 
 <p align="center">
-  <img src="Images/broken_dag.jpg" width="450" title="Loaded model in blender">
+  <img src="Images/broken_dag.jpg" width="450" title="Broken DAG">
 </p>
 
 Step5: You need to configure the new connections as mentioned below in the below screenshots
 
 ### One for the order_s3
 <p align="center">
-  <img src="Images/s3_orders.jpg" width="450" title="Loaded model in blender">
+  <img src="Images/s3_orders.jpg" width="450" title=" order_S3 Connection">
 </p>
 
 ### Second for the itversity
 
 <p align="center">
-  <img src="Images/itversity.jpg" width="450" title="Loaded model in blender">
+  <img src="Images/itversity.jpg" width="450" title="Itversity Connection">
 </p>
 
 Step6: You have to define the pool with name "my_pool" as mentioned in the default_args. 
 
 
 <p align="center">
-  <img src="Images/pool.jpg" width="450" title="Loaded model in blender">
+  <img src="Images/pool.jpg" width="450" title=" POOL ">
 </p>
 
 Step7: If you have followed the above mentioned steps , then you would be viewing the below DAG image 
 
 <p align="center">
-  <img src="Images/pipeline1_off.jpg" width="600" title="Loaded model in blender">
+  <img src="Images/pipeline1_off.jpg" width="600" title=" Pipeline OFF Status">
 </p>
 
 Step8: Click on the "OFF" option and change it to "ON" to turn on the DAG customer_pipeline
 
 <p align="center">
-  <img src="Images/pipeline_running.jpg" width="650" title="Loaded model in blender">
+  <img src="Images/pipeline_running.jpg" width="650" title=" Pipeline RUNNING Status">
 </p>
 
 Step9: Once the steps mentioned in the pipeline is completed then you would be receiving the mail notifications to your gmail account.
@@ -102,24 +102,24 @@ Step9: Once the steps mentioned in the pipeline is completed then you would be r
 ### For Success Scenario
 
 <p align="center">
-  <img src="Images/airflow2.jpg" width="650" title="Loaded model in blender">
+  <img src="Images/airflow2.jpg" width="650" title="Pipeline Success">
 </p>
     
   ### For Success mail notification 
     
 <p align="center">
-  <img src="Images/success.jpg" width="650" title="Loaded model in blender">
+  <img src="Images/success.jpg" width="650" title="Success Notification Mail">
 </p>
 
 ### For Failure Scenario
 
 <p align="center">
-  <img src="Images/Airflow_pipeine.jpg" width="650" title="Loaded model in blender">
+  <img src="Images/Airflow_pipeine.jpg" width="650" title="Pipeline Failure">
 </p>
    
    ### For Failure mail notification 
    
 <p align="center">
-  <img src="Images/failure.jpg" width="650" title="Loaded model in blender">
+  <img src="Images/failure.jpg" width="650" title=" Failure Notification Mailr">
 </p>
 
