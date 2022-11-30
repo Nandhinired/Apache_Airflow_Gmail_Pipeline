@@ -13,7 +13,7 @@
 ### Gmail SMTP Server 
 
 
-## Pipleine implementation involves the below steps 
+## Pipeline implementation involves the below steps 
 
 Step1: Checking if the orders file is available in the S3 bucket
 
@@ -46,7 +46,12 @@ Step2: Edit the docker-compose.yml file and mention your Gmail SMTP Server crede
   <img src="Images/Gmail.jpg" width="550" title="Docker Compose file">
 </p>     
 
-Step3: Please make sure docker desktop is up on running . Open terminal in VSCode and change the directory to project_pipeline
+Step3: Please make sure docker desktop is up on running . Open terminal in VSCode and change the directory to project_
+
+
+
+
+
        and execute the  "docker-compose up --build" .
 
 <p align="center">
